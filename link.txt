@@ -2,4 +2,7 @@ Maximum Network Flow:https://www.geeksforgeeks.org/ford-fulkerson-algorithm-for-
 
 Shortest Path:https://www.geeksforgeeks.org/dijkstras-shortest-path-algorithm-in-java-using-priorityqueue/
 
+Thông tin mới nha:
+nếu được thì viết bằng mảng 2 chiều ,còn không thì viết bằng List cũng được tao implent lại
+
 Link những trang web nào đọc tài liệu vào đây:
