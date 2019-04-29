@@ -5,14 +5,14 @@ public class Kruskal {
     int visted[];
     ArrayList<Edge> sortlist = new ArrayList<>();
 
-    public Kruskal(Graph a) {
-        matrix = a.getMatrix();
-        visted = new int[a.getSize()];
-        for (int i = 0; i < a.getSize(); i++) {
+    public Kruskal(int[][] a) {
+        matrix = a;
+        visted = new int[a[0].length];
+        for (int i = 0; i < a[0].length; i++) {
             visted[i] = i;
         }
-        for (int i = 0; i < a.getSize(); i++) {
-            for (int j = 0; j < a.getSize(); j++) {
+        for (int i = 0; i < a[0].length; i++) {
+            for (int j = 0; j < a[0].length; j++) {
                 if (matrix[i][j] != 0 && matrix[i][j] != 1000) {
                     sortlist.add(new Edge(i, j, matrix[i][j]));
                 }
@@ -45,18 +45,5 @@ public class Kruskal {
             current++;
         }
     }
-}
-public class Main{
-    public static void main(String[] args){
-        int graph[][] = new int[][]{
-                {0, 3, 4, x, x, x},
-                {3, 0, x, 4, 2, x},
-                {4, x, 0, x, 5, x},
-                {x, 4, x, 0, x, 1},
-                {x, 2, 5, x, 0, 6},
-                {x, x, x, x, x, 0}
-        };
-        Kruskal sa=new Kruskal(graph);
-        sa.Kruskals();
-    }
+
 }
