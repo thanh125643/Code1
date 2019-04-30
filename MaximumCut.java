@@ -89,7 +89,7 @@ public class MaximumCut {
         int x = 0;
         int graph[][] = new int[][] {{0, 3, 4, x, x, x}, {3, 0, x, 4, 2, x}, {4, x, 0, x, 5, x},
                 {x, 4, x, 0, x, 1}, {x, 2, 5, x, 0, 6}, {x, x, x, x, x, 0}};
-        System.out.println(a.maximum_cut(graph, 0, 5));
+        System.out.print("Maximun flow in network: " + a.maximum_cut(graph, 0, 5));
     }
 
 }

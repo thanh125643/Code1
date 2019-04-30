@@ -1,0 +1,32 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MinimumCut",
+            "request": "launch",
+            "mainClass": "MinimumCut",
+            "projectName": "Code1_c3e53317"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MaximumCut",
+            "request": "launch",
+            "mainClass": "MaximumCut",
+            "projectName": "Code1_c3e53317"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ShortestPath",
+            "request": "launch",
+            "mainClass": "ShortestPath",
+            "projectName": "Code1_c3e53317"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "Code1_c3e53317"
+        }
+    ]
+}
